@@ -1,7 +1,12 @@
 import Spline from "@splinetool/react-spline";
-import './Intro.css'
+import "./Intro.css";
 
 export default function Home() {
+  // Function to scroll to the Discover section smoothly
+  const scrollToDiscover = () => {
+    document.getElementById("discover").scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <main className="hero-container">
       {/* Spline 3D Animation (Background) */}
@@ -13,7 +18,7 @@ export default function Home() {
       <div className="hero-content">
         <h1>Reimagine Play with LEGO</h1>
         <p>Discover a world of endless creativity.</p>
-        <button className="discover-btn">Discover</button>
+        <button className="discover-btn" onClick={scrollToDiscover}>Discover</button>
       </div>
     </main>
   );

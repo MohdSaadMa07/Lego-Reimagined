@@ -42,6 +42,7 @@
   /* Feature Items */
   .feature li {
     font-size: 18px;
+    font
     font-weight: 600;
     cursor: pointer;
     transition: color 0.3s ease-in-out;
@@ -71,3 +72,12 @@
   
 
   
+.feature li {
+  outline: none;
+  color: inherit; /* Keeps the text color unchanged */
+}
+
+.feature li a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Keeps original text color */
+  }

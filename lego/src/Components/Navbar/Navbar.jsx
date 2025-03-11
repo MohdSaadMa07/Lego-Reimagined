@@ -15,9 +15,11 @@ const Navbar = () => {
       <ul className="feature">
         <li onClick={() => scrollToSection("home")}>Home</li>
         <li onClick={() => scrollToSection("discover")}>Discover</li>
-        <li onClick={() => scrollToSection("shop")}>Shop</li>
+        <li><a href="hhttps://le-rust.vercel.app/">
+  Shop
+</a></li>
         <li onClick={() => scrollToSection("community")}>Community</li>
-        <li onClick={() => scrollToSection("contact")}>Contact Us</li>
+        <li onClick={() => scrollToSection("contact-section")}>Contact Us</li>
       </ul>
     </div>
   );
