@@ -33,7 +33,6 @@ const Discover = () => {
           <div key={index} className="sketchfab-wrapper">
             <iframe
               title={model.title}
-              frameBorder="0"
               allowFullScreen
               mozallowfullscreen="true"
               webkitallowfullscreen="true"

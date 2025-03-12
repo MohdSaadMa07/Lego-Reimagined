@@ -15,7 +15,7 @@ const Navbar = () => {
       <ul className="feature">
         <li onClick={() => scrollToSection("home")}>Home</li>
         <li onClick={() => scrollToSection("discover")}>Discover</li>
-        <li><a href="hhttps://le-rust.vercel.app/">
+        <li><a href="https://le-rust.vercel.app/">
   Shop
 </a></li>
         <li onClick={() => scrollToSection("community")}>Community</li>
@@ -26,4 +26,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
